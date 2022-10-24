@@ -1,0 +1,230 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/classify/classify",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#f1ece7",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/user/log/log",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/home/productDetail/productDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+
+		},
+		{
+			"path": "pages/classify/kindDetail/kindDetail",
+			"style": {
+				"navigationBarTitleText": "乐居",
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/find/findDetail/findDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/user/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText": "乐居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/user/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/user/setlog/setlolg",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/home/orders/orders",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/user/address/address",
+			"style": {
+				"navigationBarTitleText": "乐居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/user/address/add/add",
+			"style": {
+				"navigationBarTitleText": "乐居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/user/address/edit/edit",
+			"style": {
+				"navigationBarTitleText": "乐居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/user/waitPay/waitPay",
+			"style": {
+				"navigationBarTitleText": "乐居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/home/orders/pay/pay",
+			"style": {
+				"navigationBarTitleText": "乐居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/user/collect/collect",
+			"style": {
+				"navigationBarTitleText": "乐居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/home/orders/pay/paySuccess/paySuccess",
+			"style": {
+				"navigationBarTitleText": "乐居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/user/waitPay/returnOrder/returnOrder",
+			"style": {
+				"navigationBarTitleText": "乐居",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354e44",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#4355950",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/icons/home.png",
+				"selectedIconPath": "./static/icons/home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/classify/classify",
+				"iconPath": "static/icons/kind.png",
+				"selectedIconPath": "static/icons/kind-active.png",
+				"text": "分类"
+			}, {
+				"pagePath": "pages/find/find",
+				"iconPath": "static/icons/find.png",
+				"selectedIconPath": "static/icons/find-active.png",
+				"text": "发现"
+			}, {
+				"pagePath": "pages/user/user",
+				"iconPath": "static/icons/mine.png",
+				"selectedIconPath": "static/icons/mine-active.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

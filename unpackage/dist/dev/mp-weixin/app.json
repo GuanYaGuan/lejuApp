@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/classify/classify",
+    "pages/find/find",
+    "pages/user/user",
+    "pages/user/log/log",
+    "pages/home/productDetail/productDetail",
+    "pages/classify/kindDetail/kindDetail",
+    "pages/find/findDetail/findDetail",
+    "pages/user/userinfo/userinfo",
+    "pages/user/cart/cart",
+    "pages/user/setlog/setlolg",
+    "pages/home/orders/orders",
+    "pages/user/address/address",
+    "pages/user/address/add/add",
+    "pages/user/address/edit/edit",
+    "pages/user/waitPay/waitPay",
+    "pages/home/orders/pay/pay",
+    "pages/user/collect/collect",
+    "pages/home/orders/pay/paySuccess/paySuccess",
+    "pages/user/waitPay/returnOrder/returnOrder"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#4355950",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "./static/icons/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "iconPath": "static/icons/kind.png",
+        "selectedIconPath": "static/icons/kind-active.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "static/icons/find.png",
+        "selectedIconPath": "static/icons/find-active.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/icons/mine.png",
+        "selectedIconPath": "static/icons/mine-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

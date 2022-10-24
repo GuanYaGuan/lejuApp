@@ -1,0 +1,1 @@
+<view class="content data-v-164c2545"><view class="box data-v-164c2545"><view class="title data-v-164c2545">订单支付成功</view><view class="price data-v-164c2545">{{'支付金额:'+price+'元'}}</view></view><view data-event-opts="{{[['tap',[['openUser',['$event']]]]]}}" class="user-info data-v-164c2545" bindtap="__e">个人中心</view></view>
